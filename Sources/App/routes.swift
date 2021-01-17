@@ -11,4 +11,5 @@ func routes(_ app: Application) throws {
     }
 
     app.register(graphQLSchema: Schemas.postSchema, withResolver: PostController())
+
 }
